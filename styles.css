@@ -1,0 +1,22 @@
+body {
+  background-color: #157c9933;
+  font-family: "Courier New", Courier, monospace;
+  color: #00c8ffb8;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  height: 960px;
+  background-color: #fff;
+  border: 2px solid #000;
+  margin: 20px auto;
+}
+
+.square {
+  /* flex: 0 0 6.25%;
+  height: 6.25%; */
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+}
