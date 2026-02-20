@@ -31,4 +31,17 @@ resetBtn.addEventListener("click", () => {
   }
 });
 
+const clearBtn = document.querySelector("#clear-btn");
+
+clearBtn.addEventListener("click", () => {
+  const squares = document.querySelectorAll(".square");
+
+  squares.forEach((square) => {
+    square.style.backgroundColor = "white";
+
+    square.dataset.brightness = "100";
+    square.style.filter = "brightness(100%)";
+  });
+});
+
 createGrid(16);
