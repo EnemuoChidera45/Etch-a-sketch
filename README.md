@@ -2,7 +2,7 @@
 A browser-based version of the classic mechanical drawing toy. This project focuses on DOM manipulation, event listeners, and dynamic grid generation using JavaScript, HTML, and CSS.
 
 # 🚀 Live Demo
-[Link to your live project (e.g., GitHub Pages) goes here]
+https://enemuochidera45.github.io/Etch-a-sketch/
 
 # ✨ Features
 Dynamic Grid: Choose your grid size (e.g., 16x16, 32x32, up to 100x100).
